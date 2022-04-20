@@ -52,6 +52,7 @@ int main(){
         printf("The product is %.2f",prodt);
     }
 
+    
     else if (operat == 4){
         printf("Enter the two numbers:\t");
         scanf("%d%d",&num1,&num2);
@@ -61,6 +62,7 @@ int main(){
         printf("The quotient is %.2f",divio);
     }
     
+    
     else if (operat == 5){
         printf("Enter the two numbers:\t");
         scanf("%d%d",&num1,&num2);
@@ -69,6 +71,7 @@ int main(){
         printf("===================================");
         printf("The remaiinder is %f",rem);
     }
+    
     
     else if (operat == 6){
         scanf("%d%d",&num1,&num2);
@@ -80,6 +83,7 @@ int main(){
         printf("The square root of: %f%f",sqrt1,sqrt2);
     }
     
+    
     else if (operat == 7){
         printf("Enter the two numbers:\t");
         scanf("%d%d",&num1,&num2);
@@ -89,9 +93,12 @@ int main(){
         printf("The power is %.2lf",power);
     }
     
+    
     else {
-        printf("You have entered wrong entry. Sorry for the inconvenience caused.");
+        printf("You have entered wrong entry. Sorry for the inconvenience caused.\n");
+        printf("Please enter the valid integer.")
     }
+    
     
     return 0;
 }
